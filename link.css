@@ -1,0 +1,59 @@
+*{
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+  }
+  body{
+      background-color: #d6e2f0;
+  }
+  #qr-container{
+  width: 350px;
+  height: 520px;
+  background-color: #b4b404;
+  border-radius: 20px;
+  margin-top: 7rem;
+  margin-right: auto;
+  margin-left: auto;
+  
+  }
+  
+  .qr-code-img{
+      text-align: center;
+      
+  }
+  .qr-code-img img{
+      width: 100%;
+      padding: 1rem;
+      border-radius: 25px;
+  }
+  
+  h2{text-align: center;
+      padding:0 1.3rex;
+  
+  }
+  
+  p{
+      font-size: 15px;
+      text-align: center;
+      color: black;
+      padding: 1rem 3rem;
+  
+  }
+  /* 
+  
+  
+  
+  Media queries
+  
+  
+  
+  */
+  
+  @media screen and (max-width: 480px) {
+      #qr-container{
+          margin-top: 3rem;
+          }
+          
+     
+  }
